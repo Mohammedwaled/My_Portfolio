@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Waleed | Flutter Developer</title>
+    <meta name="description" content="Portfolio of Mohamed Waleed, a Flutter Developer focused on building scalable cross-platform mobile applications.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Devicon for Tech Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-content">
+            <a href="#home" class="logo">Mohamed<span>.dev</span></a>
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav class="nav-links">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link btn-outline-sm">Contact Me</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-particles" id="hero-particles"></div>
+            <div class="container hero-container">
+                <div class="hero-content reveal-left">
+                    <p class="greeting">Hi there, I'm</p>
+                    <h1 class="name glow-text">Mohamed Waleed</h1>
+                    <h2 class="title">
+                        <span class="gradient-text">Flutter Developer</span> | Mobile Application Developer
+                    </h2>
+                    <p class="description">
+                        I build scalable cross-platform mobile applications using Flutter, focusing on performance, clean architecture, and modern UI design.
+                    </p>
+                    
+                    <div class="stats-row">
+                        <div class="stat-item">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">Flutter Apps</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">4+</span>
+                            <span class="stat-label">Web Projects</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">3+</span>
+                            <span class="stat-label">Cyber Sec Systems</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">200+</span>
+                            <span class="stat-label">Problems Solved</span>
+                        </div>
+                    </div>
+
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn btn-primary">
+                            <i class="fas fa-briefcase"></i> View Projects
+                        </a>
+                        <a href="Mohamed_Waleed_ATS_CV.pdf" download="Mohamed_Waleed_CV.pdf" class="btn btn-outline-sm resume-btn">
+                            <i class="fas fa-download"></i> Download CV
+                        </a>
+                        <div class="social-links">
+                            <a href="https://github.com/Mohammedwaled" target="_blank" class="social-icon" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/mohamed-waled-8b6417326" target="_blank" class="social-icon" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="#contact" class="social-icon" aria-label="Contact">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-image-wrapper reveal-right">
+                    <div class="profile-frame">
+                        <div class="frame-glow"></div>
+                        <img src="صورتي الشخصيه.jpg" alt="Mohamed Waleed" class="profile-img" onerror="this.src='https://via.placeholder.com/400x400/1e293b/00d2ff?text=MW'">
+                        
+                        <!-- Floating Tech Icons -->
+                        <div class="floating-icon icon-flutter" style="--delay: 0s;">
+                            <i class="devicon-flutter-plain colored"></i>
+                        </div>
+                        <div class="floating-icon icon-dart" style="--delay: 1.5s;">
+                            <i class="devicon-dart-plain colored"></i>
+                        </div>
+                        <div class="floating-icon icon-firebase" style="--delay: 3s;">
+                            <i class="devicon-firebase-plain colored"></i>
+                        </div>
+                        <div class="floating-icon icon-git" style="--delay: 2s;">
+                            <i class="devicon-git-plain colored"></i>
+                        </div>
+                        <div class="floating-icon icon-android" style="--delay: 4.5s;">
+                            <i class="devicon-android-plain colored"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <a href="#about" class="scroll-down-indicator">
+                <span class="mouse">
+                    <span class="wheel"></span>
+                </span>
+            </a>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section-padding reveal">
+            <div class="container">
+                <div class="section-title">
+                    <h2 class="title-bg">About Me</h2>
+                    <h3>Discover <span class="text-gradient">Who I Am</span></h3>
+                    <div class="underline"></div>
+                </div>
+
+                <div class="about-content">
+                    <div class="about-text glass-card hover-lift-subtle">
+                        <p>I am a <strong>Flutter developer</strong> focused on building scalable and high-performance mobile applications.</p>
+                        <p>I enjoy designing clean user interfaces, integrating REST APIs, and turning ideas into real-world products.</p>
+                        <p>Alongside mobile development, I also have a growing interest in <em>cybersecurity</em> and secure software practices.</p>
+                        
+                        <div class="strengths-wrapper">
+                            <h4>Core Strengths</h4>
+                            <div class="strengths-grid">
+                                <div class="strength-item">
+                                    <div class="strength-icon"><i class="fas fa-mobile-alt"></i></div>
+                                    <span>Mobile App Development</span>
+                                </div>
+                                <div class="strength-item">
+                                    <div class="strength-icon"><i class="fas fa-network-wired"></i></div>
+                                    <span>API Integration</span>
+                                </div>
+                                <div class="strength-item">
+                                    <div class="strength-icon"><i class="fas fa-lightbulb"></i></div>
+                                    <span>Problem Solving</span>
+                                </div>
+                                <div class="strength-item">
+                                    <div class="strength-icon"><i class="fas fa-shield-alt"></i></div>
+                                    <span>Secure Development</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section-padding reveal bg-alt">
+            <div class="container">
+                <div class="section-title text-center">
+                    <h2 class="title-bg">My Skills</h2>
+                    <h3>Technical <span class="text-gradient">Expertise</span></h3>
+                    <div class="underline center"></div>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- Mobile Dev -->
+                    <div class="skill-category glass-card hover-lift">
+                        <div class="category-header">
+                            <div class="icon-box"><i class="fas fa-mobile-screen-button"></i></div>
+                            <h4>Mobile Development</h4>
+                        </div>
+                        <ul class="skill-list">
+                            <li><i class="devicon-flutter-plain colored"></i> Flutter</li>
+                            <li><i class="devicon-dart-plain colored"></i> Dart</li>
+                            <li><i class="devicon-firebase-plain colored"></i> Firebase</li>
+                            <li><i class="fas fa-exchange-alt text-primary"></i> REST API Integration</li>
+                            <li><i class="fas fa-cubes text-primary"></i> State Management</li>
+                            <li><i class="fas fa-desktop text-primary"></i> Responsive UI</li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Web Dev -->
+                    <div class="skill-category glass-card hover-lift">
+                        <div class="category-header">
+                            <div class="icon-box"><i class="fas fa-code"></i></div>
+                            <h4>Web Development</h4>
+                        </div>
+                        <ul class="skill-list">
+                            <li><i class="devicon-html5-plain colored"></i> HTML</li>
+                            <li><i class="devicon-css3-plain colored"></i> CSS</li>
+                            <li><i class="devicon-javascript-plain colored"></i> JavaScript</li>
+                        </ul>
+                    </div>
+
+                    <!-- Programming -->
+                    <div class="skill-category glass-card hover-lift">
+                        <div class="category-header">
+                            <div class="icon-box"><i class="fas fa-terminal"></i></div>
+                            <h4>Programming</h4>
+                        </div>
+                        <ul class="skill-list">
+                            <li><i class="devicon-cplusplus-plain colored"></i> C++</li>
+                            <li><i class="devicon-python-plain colored"></i> Python</li>
+                        </ul>
+                    </div>
+
+                    <!-- Cyber Security -->
+                    <div class="skill-category glass-card hover-lift">
+                        <div class="category-header">
+                            <div class="icon-box"><i class="fas fa-user-secret"></i></div>
+                            <h4>Cyber Security</h4>
+                        </div>
+                        <ul class="skill-list">
+                            <li><i class="fas fa-network-wired text-primary"></i> CCNA Fundamentals</li>
+                            <li><i class="fas fa-shield-halved text-primary"></i> Network Security</li>
+                            <li><i class="fas fa-bug text-primary"></i> Vulnerability Assessment</li>
+                            <li><i class="fas fa-magnifying-glass-chart text-primary"></i> Bug Bounty</li>
+                            <li><i class="fas fa-laptop-code text-primary"></i> OSCP Preparation</li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Problem Solving -->
+                    <div class="skill-category glass-card hover-lift">
+                        <div class="category-header">
+                            <div class="icon-box"><i class="fas fa-brain"></i></div>
+                            <h4>Problem Solving</h4>
+                        </div>
+                        <ul class="skill-list">
+                            <li><i class="fas fa-sitemap text-primary"></i> Data Structures & Algorithms</li>
+                            <li><i class="fas fa-medal text-primary"></i> 200+ Problems Solved (C++)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tools Section -->
+        <section id="tools" class="tools section-padding reveal">
+            <div class="container">
+                <div class="section-title">
+                    <h2 class="title-bg">Tools</h2>
+                    <h3>Tools & <span class="text-gradient">Technologies</span></h3>
+                    <div class="underline"></div>
+                </div>
+
+                <div class="tools-grid">
+                    <!-- IDEs -->
+                    <div class="tool-group">
+                        <h4 class="tool-group-title">Development Tools</h4>
+                        <div class="tool-icons">
+                            <div class="tool-icon-wrapper tooltip" data-tooltip="VS Code">
+                                <i class="devicon-vscode-plain colored"></i>
+                            </div>
+                            <div class="tool-icon-wrapper tooltip" data-tooltip="Visual Studio">
+                                <i class="devicon-visualstudio-plain colored"></i>
+                            </div>
+                            <div class="tool-icon-wrapper tooltip" data-tooltip="Android Studio">
+                                <i class="devicon-androidstudio-plain colored"></i>
+                            </div>
+                            <div class="tool-icon-wrapper tooltip" data-tooltip="Figma">
+                                <i class="devicon-figma-plain colored"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Platforms -->
+                    <div class="tool-group">
+                        <h4 class="tool-group-title">Platforms</h4>
+                        <div class="tool-icons">
+                            <div class="tool-icon-wrapper tooltip" data-tooltip="Git">
+                                <i class="devicon-git-plain colored"></i>
+                            </div>
+                            <div class="tool-icon-wrapper tooltip" data-tooltip="GitHub">
+                                <i class="devicon-github-original text-primary"></i>
+                            </div>
+                            <div class="tool-icon-wrapper tooltip" data-tooltip="Firebase">
+                                <i class="devicon-firebase-plain colored"></i>
+                            </div>
+                            <div class="tool-icon-wrapper tooltip" data-tooltip="Google Colab">
+                                <i class="fas fa-cloud text-primary"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Security Tools -->
+                    <div class="tool-group">
+                        <h4 class="tool-group-title">Cyber Security Tools</h4>
+                        <div class="tool-icons">
+                            <div class="tool-icon-wrapper tooltip" data-tooltip="Nmap">
+                                <i class="fas fa-network-wired text-primary"></i>
+                            </div>
+                            <div class="tool-icon-wrapper tooltip" data-tooltip="Burp Suite">
+                                <i class="fas fa-spider text-primary"></i>
+                            </div>
+                            <div class="tool-icon-wrapper tooltip" data-tooltip="Wireshark">
+                                <i class="fas fa-water text-primary"></i>
+                            </div>
+                            <div class="tool-icon-wrapper tooltip" data-tooltip="Maltego">
+                                <i class="fas fa-project-diagram text-primary"></i>
+                            </div>
+                            <div class="tool-icon-wrapper tooltip" data-tooltip="Sublist3r">
+                                <i class="fas fa-list text-primary"></i>
+                            </div>
+                            <div class="tool-icon-wrapper tooltip" data-tooltip="Kali Linux">
+                                <i class="devicon-linux-plain text-primary"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section-padding reveal bg-alt">
+            <div class="container">
+                <div class="section-title text-center">
+                    <h2 class="title-bg">Portfolio</h2>
+                    <h3>Featured <span class="text-gradient">Projects</span></h3>
+                    <div class="underline center"></div>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1 (Featured) -->
+                    <div class="project-card featured-project glass-card hover-lift">
+                        <div class="project-image-wrapper">
+                            <img src="project_imges/Food Delivery App.png" alt="Food Delivery App" class="project-img" onerror="this.src='https://via.placeholder.com/600x400/13141c/00d2ff?text=Food+Delivery+App'">
+                            <div class="project-overlay">
+                                <a href="https://github.com/Mohammedwaled/Food-Delivery-App.git" target="_blank" class="overlay-btn"><i class="fab fa-github"></i> GitHub</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-badge">Featured Project</div>
+                            <h4 class="project-title">Food Delivery App</h4>
+                            <p class="project-desc">A modern food delivery mobile application built with Flutter, focusing on clean UI design and smooth user interaction.</p>
+                            <div class="project-tech">
+                                <span>Flutter</span>
+                                <span>Dart</span>
+                                <span>Firebase</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card glass-card hover-lift">
+                        <div class="project-image-wrapper">
+                            <img src="project_imges/NewsFlow – Real-Time News App.png" alt="NewsFlow App" class="project-img" onerror="this.src='https://via.placeholder.com/600x400/13141c/00d2ff?text=NewsFlow'">
+                            <div class="project-overlay">
+                                <a href="https://github.com/Mohammedwaled/Advanced-Real-Time-Data-Engine.git" target="_blank" class="overlay-btn"><i class="fab fa-github"></i> GitHub</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h4 class="project-title">NewsFlow – Real-Time News App</h4>
+                            <p class="project-desc">A high-performance Flutter application delivering real-time news using REST APIs and Provider state management.</p>
+                            <div class="project-tech">
+                                <span>Flutter</span>
+                                <span>Dart</span>
+                                <span>REST API</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card glass-card hover-lift">
+                        <div class="project-image-wrapper">
+                            <img src="project_imges/E-Commerce Flora App.png" alt="E-Commerce Flora App" class="project-img" onerror="this.src='https://via.placeholder.com/600x400/13141c/00d2ff?text=Flora+App'">
+                            <div class="project-overlay">
+                                <a href="https://github.com/Mohammedwaled/E-commerce-flora.git" target="_blank" class="overlay-btn"><i class="fab fa-github"></i> GitHub</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h4 class="project-title">E-Commerce Flora App</h4>
+                            <p class="project-desc">Flutter shopping application allowing users to browse products and manage their cart.</p>
+                            <div class="project-tech">
+                                <span>Flutter</span>
+                                <span>Dart</span>
+                                <span>Firebase</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="project-card glass-card hover-lift">
+                        <div class="project-image-wrapper">
+                            <img src="project_imges/TravelWorld – Booking Management System.png" alt="TravelWorld" class="project-img" onerror="this.src='https://via.placeholder.com/600x400/13141c/00d2ff?text=TravelWorld'">
+                            <div class="project-overlay">
+                                <a href="https://github.com/Mohammedwaled/Booking_travel.git" target="_blank" class="overlay-btn"><i class="fab fa-github"></i> Code</a>
+                                <a href="https://drive.google.com/drive/folders/12Zv_qRHMyaFT4KKZCB6QVw8T2k9YNuo3" target="_blank" class="overlay-btn"><i class="fas fa-external-link-alt"></i> Demo</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h4 class="project-title">TravelWorld – Booking System</h4>
+                            <p class="project-desc">A web-based travel and hotel booking platform with role-based access control and admin analytics.</p>
+                            <div class="project-tech">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 5 -->
+                    <div class="project-card glass-card hover-lift">
+                        <div class="project-image-wrapper">
+                            <img src="project_imges/Food Lover Restaurant Website.png" alt="Food Lover" class="project-img" onerror="this.src='https://via.placeholder.com/600x400/13141c/00d2ff?text=Food+Lover'">
+                            <div class="project-overlay">
+                                <a href="https://github.com/Mohammedwaled/food_system.git" target="_blank" class="overlay-btn"><i class="fab fa-github"></i> GitHub</a>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <h4 class="project-title">Food Lover Restaurant</h4>
+                            <p class="project-desc">Responsive restaurant website designed for menu discovery and restaurant reservations.</p>
+                            <div class="project-tech">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Combining Certifications and Education -->
+        <section id="resume" class="resume section-padding reveal">
+            <div class="container">
+                <div class="section-title text-center">
+                    <h2 class="title-bg">Resume</h2>
+                    <h3>Education & <span class="text-gradient">Certifications</span></h3>
+                    <div class="underline center"></div>
+                </div>
+
+                <div class="resume-grid">
+                    <!-- Education -->
+                    <div class="resume-column">
+                        <h4 class="resume-title"><i class="fas fa-graduation-cap text-primary"></i> Education</h4>
+                        <div class="timeline">
+                            <div class="timeline-item glass-card hover-lift-subtle">
+                                <div class="timeline-dot"></div>
+                                <h5 class="timeline-degree">Bachelor of Computer Science – Cyber Security</h5>
+                                <h6 class="timeline-uni">Egyptian Chinese University</h6>
+                                <div class="timeline-meta">
+                                    <span><i class="fas fa-map-marker-alt"></i> Cairo, Egypt</span>
+                                    <span class="gpa-badge">GPA: 3.20</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Certifications -->
+                    <div class="resume-column">
+                        <h4 class="resume-title"><i class="fas fa-certificate text-primary"></i> Achievements</h4>
+                        <div class="timeline">
+                            <div class="timeline-item glass-card hover-lift-subtle">
+                                <div class="timeline-dot"></div>
+                                <h5 class="timeline-degree">Digital Egypt Pioneers Initiative (DEPI)</h5>
+                                <p class="timeline-desc">Intensive training program.</p>
+                            </div>
+                            <div class="timeline-item glass-card hover-lift-subtle">
+                                <div class="timeline-dot"></div>
+                                <h5 class="timeline-degree">ICPC Problem Solving Training</h5>
+                                <p class="timeline-desc">Algorithmic training and competitive programming.</p>
+                            </div>
+                            <div class="timeline-item glass-card hover-lift-subtle">
+                                <div class="timeline-dot"></div>
+                                <h5 class="timeline-degree">200+ Algorithmic Problems Solved</h5>
+                                <p class="timeline-desc">Continuous practice in Data Structures and Algorithms focusing on problem solving using C++.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section-padding reveal bg-alt">
+            <div class="container">
+                <div class="section-title text-center">
+                    <h2 class="title-bg">Contact</h2>
+                    <h3>Get In <span class="text-gradient">Touch</span></h3>
+                    <div class="underline center"></div>
+                </div>
+
+                <div class="contact-content glass-card">
+                    <div class="contact-text text-center">
+                        <p class="mb-4 text-secondary">I am open to internships, junior developer opportunities, and collaboration on mobile development projects.</p>
+                    </div>
+
+                    <div class="contact-info-grid">
+                        <div class="contact-info-item hover-lift-subtle">
+                            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                            <h4>Email Me</h4>
+                            <a href="mailto:Mohamedwaled5255@gmail.com">Mohamedwaled5255@gmail.com</a>
+                        </div>
+                        <div class="contact-info-item hover-lift-subtle">
+                            <div class="contact-icon"><i class="fas fa-phone-alt"></i></div>
+                            <h4>Call Me</h4>
+                            <a href="tel:+201002849262">+20 100 284 9262</a>
+                        </div>
+                        <div class="contact-info-item hover-lift-subtle">
+                            <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <h4>Location</h4>
+                            <p>Cairo, Egypt</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-social">
+                        <h4>Find Me Online</h4>
+                        <div class="social-links justify-center mt-3">
+                            <a href="https://github.com/Mohammedwaled" target="_blank" class="social-icon" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/mohamed-waled-8b6417326" target="_blank" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://tryhackme.com/p/mohamedwaleed5" target="_blank" class="social-icon" aria-label="TryHackMe" title="TryHackMe"><i class="fas fa-user-ninja"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <p>&copy; 2025 Mohamed Waleed. All rights reserved.</p>
+                    <p class="built-with mt-3">Built with <i class="fas fa-heart text-primary mx-1"></i> using modern web technologies.</p>
+                </div>
+                <!-- Scroll to top button -->
+                <a href="#home" class="scroll-top" title="Scroll to top"><i class="fas fa-arrow-up"></i></a>
+            </div>
+        </footer>
+    </main>
+
+    <!-- Project images directory placeholder text -->
+    <!-- We will build the rest interactively -->
+
+    <script src="js/script.js"></script>
+</body>
+</html>
