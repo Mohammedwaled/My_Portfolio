@@ -1150,6 +1150,10 @@ ul {
     color: var(--text-primary);
     font-size: 1.1rem;
     font-weight: 500;
+    word-break: break-word;
+    overflow-wrap: anywhere;
+    max-width: 100%;
+    display: inline-block;
 }
 
 .contact-info-item a:hover {
